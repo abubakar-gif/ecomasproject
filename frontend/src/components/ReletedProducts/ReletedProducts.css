@@ -1,0 +1,88 @@
+.ReletedProducts{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+height: 90vh;
+}
+.ReletedProducts h1{
+color: #171717;
+font-size: 50px;
+font-weight: 600;
+}
+
+.ReletedProducts hr{
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: #252525;
+}
+.releted-product-items{
+  margin-top:50px ;
+  display: flex;
+  gap: 30px;
+  
+}
+
+@media (max-width: 1280px) {
+  .ReletedProducts{
+    height: 70vh;
+  }
+  .ReletedProducts h1{
+    font-size: 40px;
+  }
+  .ReletedProducts hr{
+    width: 160px;
+    height: 4px;
+  }
+  .releted-product-items{
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .ReletedProducts{
+    height: 60vh;
+  }
+  .ReletedProducts h1{
+    font-size: 30px;
+  }
+  .ReletedProducts hr{
+    width: 120px;
+    height: 3px;
+  }
+  .releted-product-items{
+    gap: 15px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .ReletedProducts{
+    height: 50vh;
+    gap: 6px;
+  }
+  .ReletedProducts h1{
+    font-size: 20px;
+  }
+  .ReletedProducts hr{
+    width: 100px;
+  }
+  .releted-product-items{
+    gap: 5px;
+    
+  }
+}
+
+@media (max-width: 500px) {
+  .ReletedProducts{
+    height: 90vh;
+  }
+ .releted-product-items{
+  display: grid;
+  grid-template-columns:1fr 1fr ;
+  gap: 50px;
+ }
+}
